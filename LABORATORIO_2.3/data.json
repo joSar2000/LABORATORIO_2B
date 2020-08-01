@@ -1,0 +1,49 @@
+{
+    "Cliente": [{
+        "idcliente":1,"descripcionproducto":"Latas de atun","cedula":"1150088050","nombre":"Jorge","apellido":"Ortiz"}
+        ,{"idcliente":2,"descripcionproducto":"Latas de sardina","cedula":"1103211558","nombre":"Juan","apellido":"Ortiz"}
+        ,{"idcliente":3,"descripcionproducto":"Latas de champinon","cedula":"1101488965","nombre":"pedro","apellido":"Ortiz"}
+        ,{"idcliente":4,"descripcionproducto":"Latas de duraznos","cedula":"1201478652","nombre":"luis","apellido":"Ortiz"}
+        ,{"idcliente":5,"descripcionproducto":"Latas de arroz","cedula":"1230455889","nombre":"Manuel","apellido":"Ortiz"}
+    ],
+    "Fecha": [{
+        "idfecha":1,"fechadespacho":"01\/08\/2020"}
+        ,{"idfecha":2,"fechadespacho":"15\/10\/2020"}
+        ,{"idfecha":3,"fechadespacho":"01\/12\/2020"}
+        ,{"idfecha":4,"fechadespacho":"02\/03\/2020"}
+        ,{"idfecha":5,"fechadespacho":"26\/03\/2020"}
+        ,{"idfecha":6,"fechadespacho":"01\/08\/2020"}
+    ],
+    "Barrio": [{
+        "idbarrio":1,"nombrebarrio":"La Pradera","detalle":"cerca del Bernardo Valdivieso"}
+        ,{"idbarrio":2,"nombrebarrio":"La Tebaida","detalle":"cerca a Supermaxi"}
+        ,{"idbarrio":3,"nombrebarrio":"Las Pitas","detalle":"via Cuenca"}
+        ,{"idbarrio":4,"nombrebarrio":"Yahuarcuna","detalle":"cerca del Bernardo Valdivieso"}
+        ,{"idbarrio":5,"nombrebarrio":"Turunuma","detalle":"fuera de la ciudad"
+    }],
+    "Direccion": [{
+        "iddireccion":2,"calleprincipal":"Yahuarcuna","callesecundaria":"Arabiscos","numcasa":"237-33","referencia":"Diagonal a internet"}
+        ,{"iddireccion":1,"calleprincipal":"Yahuarcuna","callesecundaria":"Arabiscos","numcasa":"237-33","referencia":"Diagonal a internet"}
+        ,{"iddireccion":3,"calleprincipal":"Yahuarcuna","callesecundaria":"Arabiscos","numcasa":"237-33","referencia":"Diagonal a internet"}
+        ,{"iddireccion":4,"calleprincipal":"Yahuarcuna","callesecundaria":"Arabiscos","numcasa":"237-33","referencia":"Diagonal a internet"}
+        ,{"iddireccion":5,"calleprincipal":"Yahuarcuna","callesecundaria":"Arabiscos","numcasa":"237-33","referencia":"Diagonal a internet"
+    }],
+    "Producto": [{
+        "idproducto":1,"tipoproducto":"Carnes","descripcion":"carne de res","fragil":"NO"}
+        ,{"idproducto":2,"tipoproducto":"Bebidas","descripcion":"gaseosas","fragil":"SI"}
+        ,{"idproducto":3,"tipoproducto":"Legumbres","descripcion":"lechugas","fragil":"NO"}
+        ,{"idproducto":4,"tipoproducto":"Huevos","descripcion":"Huevos","fragil":"SI"}
+        ,{"idproducto":5,"tipoproducto":"Tornillos","descripcion":"pernos","fragil":"NO"
+    }],
+    "Despacho": [{
+        "iddespacho":1,"valorentrega":3,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":1,"idfecha":6,"idbarrio":3,"iddireccion":4,"idproducto":2}
+        ,{"iddespacho":2,"valorentrega":11,"peso":7,"detalle":"entrega a domicilio","cantidadenvios":8,"idcliente":3,"idfecha":4,"idbarrio":1,"iddireccion":1,"idproducto":4}
+        ,{"iddespacho":3,"valorentrega":4,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":5,"idfecha":1,"idbarrio":2,"iddireccion":4,"idproducto":2}
+        ,{"iddespacho":4,"valorentrega":3,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":1,"idfecha":5,"idbarrio":1,"iddireccion":4,"idproducto":3}
+        ,{"iddespacho":5,"valorentrega":3,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":1,"idfecha":6,"idbarrio":3,"iddireccion":4,"idproducto":2}
+        ,{"iddespacho":6,"valorentrega":19,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":2,"idfecha":5,"idbarrio":1,"iddireccion":4,"idproducto":3}
+        ,{"iddespacho":7,"valorentrega":12,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":2,"idfecha":6,"idbarrio":1,"iddireccion":4,"idproducto":3}
+        ,{"iddespacho":8,"valorentrega":17,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":2,"idfecha":2,"idbarrio":1,"iddireccion":4,"idproducto":3}
+        ,{"iddespacho":9,"valorentrega":17,"peso":4,"detalle":"entrega a domicilio","cantidadenvios":5,"idcliente":2,"idfecha":4,"idbarrio":1,"iddireccion":4,"idproducto":3
+    }]
+}
